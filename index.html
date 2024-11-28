@@ -85,22 +85,23 @@
   <main id="main">
 
     <!-- ======= Sobre Section ======= -->
-    <section id="Sobre" class="Sobre">
-      <div class="container">
+    <section id="Sobre" class="Sobre section"> 
+      
 
-        <div class="section-title">
+        <div class="container section-title" data-aos="fade-up">
           <h2>Sobre</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>UI/UX Designer &amp; Desenvolvedor Web.</h3>
-            <p class="fst-italic">
-              Designer Gráfico inovador e orientado por prazos com  2 anos de experiência projetando e desenvolvendo material de marketing digital/impresso centrado no usuário, desde o conceito inicial até o final e polido entregável.</em></p>
-            </p>
+          <div class="col-lg-8 content">
+            <h2>UI/UX Designer &amp; Desenvolvedor Web.</h2>
+            <p class="fst-italic py-3">
+              "Programador Full Stack com experiência em desenvolvimento de software, design, desenvolvimento web e marketing digital. Apaixonado por criar soluções inovadoras e funcionais, combinando habilidades técnicas e criatividade para entregar resultados de alto impacto. Sempre em busca de novos desafios e oportunidades de aprendizado."</p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -375,7 +376,7 @@
 
          <div class="section-title">
           <h2>Serviços</h2>
-          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <!--p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</!--p>
         </div>
 
         <div class="row">
@@ -409,13 +410,18 @@
             <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
             <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
           </div>
-        </div>..-->
+        </div>
 
-        <main>
+          </div>
+    </section>  End Serviços Section -->
+
+        <section id="caixa" class="caixa section-bg">
+          <div class="container">
+        
           <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
             <div class="col">
               <div class="card mb-4 rounded-2 shadow-sm">
-                <div class="card-header py-3 text-bg-secondary border-secondary">
+                <div class="card-header py-3 text-bg">
                   <h4 class="my-0 fw-normal">Logo</h4>
                 </div>
                 <div class="card-body">
@@ -426,13 +432,13 @@
                     <li>Letterforms</li>
                     <li>Mascotes</li>
                   </ul>
-                  <a href="#Contato" type="button" class="w-100 btn btn-lg btn-outline-primary">Ver Modelos</a>
+                  <a href="#Contato" type="button" class="w-100 btn btn-lg btn-outline">Ver Modelos</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm">
-                <div class="card-header py-3 text-bg-secondary border-secondary">
+                <div class="card-header py-3 text-bg">
                   <h4 class="my-0 fw-normal">Social media</h4>
                 </div>
                 <div class="card-body">
@@ -443,13 +449,13 @@
                     <li>profissional</li>
                     <li>Comidas e Bebidas</li>
                   </ul>
-                  <a href="#Contato" type="button" class="w-100 btn btn-lg btn-outline-primary">Ver Modelos</a>
+                  <a href="#Contato" type="button" class="w-100 btn btn-lg btn-outline">Ver Modelos</a>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm">
-                <div class="card-header py-3 text-bg-secondary border-secondary">
+                <div class="card-header py-3 text-bg">
                   <h4 class="my-0 fw-normal">Website</h4>
                 </div>
                 <div class="card-body">
@@ -461,21 +467,22 @@
                     <li>Sites Interativos</li>
                     <li>Sites Lojas</li>
                   </ul>
-                  <a href="#Contato" type="button" class="w-100 btn btn-lg btn-outline-primary">Ver Modelos</a>
+                  <a href="#Contato" type="button" class="w-100 btn btn-lg btn-outline">Ver Modelos</a>
                 </div>
               </div>
             </div>
           </div>
       
-        
-      
-          
-        </main>
-
-      </div>
+            </div>
     </section><!-- End Serviços Section -->
 
->
+       
+
+
+
+    
+
+
 
     <!-- ======= Contato Section ======= -->
     <section id="Contato" class="Contato">
@@ -521,13 +528,13 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <!--<footer id="footer">
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>iPortfolio</span></strong>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
+        <-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX Contato form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
