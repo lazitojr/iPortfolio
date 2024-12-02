@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #490958;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #640677;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -87,7 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #2c3f31;
 }
 
 #header .profile h1 {
@@ -576,7 +576,9 @@ section {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  
 }
+
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
@@ -692,10 +694,12 @@ section {
   background: #780096;
   
   }
+
+  
   
   .caixa .btn-outline:hover {
    
-   padding: 40px 80px; 
+   padding: 10px 10px; 
    color: #ffffff;
    background: #780096;
    border: none;
